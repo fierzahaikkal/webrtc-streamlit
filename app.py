@@ -4,6 +4,10 @@ import av
 import cv2
 import mediapipe as mp
 
+print(st.__version__) 
+print(cv2.__version__) 
+print(mp.__version__)
+
 # Inisialisasi MediaPipe Hands
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
